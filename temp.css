@@ -1,0 +1,190 @@
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    display:flex;
+    font-family: "Rubik", sans-serif;
+}
+
+.interface{
+    display: flex;
+    margin-top: 100px;
+    margin-right:auto;
+    margin-left: auto;
+}
+.profile{
+    height:370px;
+    width: 185px;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+.details{
+    position: relative;
+    z-index: 1;
+    width:165px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: hsl(246, 80%, 60%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.details .profile_pic{
+    padding:1px;
+    width: 67px;
+    height: 67px;
+    box-sizing: border-box;
+    border-radius: 33.5px;
+    background-color: white;
+}
+
+.details .profile_pic img{
+    width: 65px;
+    vertical-align: middle;
+}
+
+.details .profile_info {
+    color: white;
+}
+
+#text{
+    margin-bottom: 0px;
+    font-size: 0.75em;
+}
+
+#profile_name{
+    margin:0px;
+    font-size: 2em;
+}
+
+
+.settings{
+    position: relative;
+    margin-top: -10px;
+    height: 130px;
+    width: 165px;
+    border-radius: 0 0 10px 10px;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.settings p{
+    margin: 10px;
+    color: hsl(236, 100%, 87%);
+}
+
+.settings p.selected{
+    color: white;
+}
+
+#weekly:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#daily:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#monthly:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.stats_grid{
+    width:550px;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    width:550px;
+}
+
+.stat_card{
+    width:30%;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.logo{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 50px; 
+    border-radius: 10px;
+}
+
+.work .logo{
+    background-color: hsl(15, 100%, 70%);
+}
+
+.play .logo{
+    background-color: hsl(195, 74%, 62%);
+}
+
+.study .logo{
+    background-color: hsl(348, 100%, 68%);
+}
+
+.exercise .logo{
+    background-color: hsl(145, 58%, 55%);
+}
+
+.social .logo{
+    background-color: hsl(264, 64%, 52%);
+}
+
+.selfcare .logo{
+    background-color: hsl(43, 84%, 65%);
+}
+
+.logo img{
+    margin-left: auto;
+    margin-right: 10px;
+    align-self: center;
+    position: relative;
+    height: 50px;
+    top: -5px;
+}
+
+.stat{
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin-top: -20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+.stat:hover{
+    background-color: #33397A;
+    cursor: pointer;
+}
+
+.stat_name {
+    display: flex;
+}
+
+.stat_name p{
+    margin: 0px;
+}
+
+.stat_name img{
+    margin-left: auto;
+    width: 15px;
+    align-self: center;
+}
+
+.stat_value{
+    margin-top: 10px;
+    font-size: 3em;
+}
+
+.prev_stat{
+    font-size: 0.7em;
+}
